@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,9 @@ function Navbar() {
   return (
     <nav className="relative z-50 flex flex-wrap items-center justify-between px-4 py-4 md:py-6 bg-white border-b border-black">
       {/* Left side - Home link */}
-      <a href="/" className="text-sm font-medium hover:underline transition-colors order-1">
+      <Link to="/" className="text-sm font-medium hover:underline transition-colors order-1">
         HOME
-      </a>
+      </Link>
       
       {/* Center - Logo/Title (full width on mobile, centered on desktop) */}
       <div className="w-full md:w-auto text-center order-3 md:order-2 mt-3 md:mt-0">
@@ -75,15 +76,15 @@ function Navbar() {
 
         {/* Links for desktop */}
         <div className="hidden md:flex space-x-2 lg:space-x-4">
-          <a href="/service" className="text-sm font-medium hover:underline transition-colors">
+          <Link to="/service" className="text-sm font-medium hover:underline transition-colors">
             SERVICES
-          </a>
-          <a href="/about" className="text-sm font-medium hover:underline transition-colors">
+          </Link>
+          <Link to="/about" className="text-sm font-medium hover:underline transition-colors">
             ABOUT US
-          </a>
-          <a href="/conditions" className="text-sm font-medium hover:underline transition-colors">
+          </Link>
+          <Link to="/conditions" className="text-sm font-medium hover:underline transition-colors">
             TERMS AND CONDITIONS
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -99,27 +100,27 @@ function Navbar() {
         } fixed top-[calc(1.5rem+1.5rem+1px)] right-0 w-64 h-screen bg-white shadow-lg transform transition-all duration-300 ease-in-out z-50`}
       >
         <div className="flex flex-col space-y-4 p-6">
-          <a 
-            href="/service" 
+          <Link 
+            to="/service" 
             className="text-sm font-medium hover:underline transition-colors"
             onClick={toggleMenu}
           >
             SERVICES
-          </a>
-          <a 
-            href="/about" 
+          </Link>
+          <Link 
+            to="/about" 
             className="text-sm font-medium hover:underline transition-colors"
             onClick={toggleMenu}
           >
             ABOUT US
-          </a>
-          <a 
-            href="/conditions" 
+          </Link>
+          <Link 
+            to="/conditions" 
             className="text-sm font-medium hover:underline transition-colors"
             onClick={toggleMenu}
           >
             TERMS AND CONDITIONS
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
