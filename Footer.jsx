@@ -37,7 +37,7 @@ function Footer() {
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaPhone />
             <a href="tel:+1234567890" className="hover:text-white transition-colors duration-300">
-              +1 (234) 567-890
+              +1 (661) 470-4312
             </a>
           </div>
         </div>
