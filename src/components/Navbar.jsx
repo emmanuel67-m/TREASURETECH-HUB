@@ -31,15 +31,11 @@ function Navbar() {
 
   return (
     <nav className="relative z-50 flex flex-wrap items-center justify-between px-4 py-4 md:py-6 bg-white border-b border-black">
-      {/* Left side - Home link */}
-      <Link to="/" className="text-sm font-medium hover:underline transition-colors order-1">
-        HOME
-      </Link>
       
       {/* Center - Logo/Title (full width on mobile, centered on desktop) */}
-      <div className="w-full md:w-auto text-center order-3 md:order-2 mt-3 md:mt-0">
-        <h1 className="text-xl md:text-2xl lg:text-3xl font-serif">TREASURETECH HUB</h1>
-      </div>
+      <Link to="/" className="w-full text-2xl md:w-auto text-center order-3 md:order-2 mt-3 md:mt-0">
+      TREASURETECH HUB    
+     </Link>
       
       {/* Right side - Menu toggle on mobile, links on desktop */}
       <div className="order-2 md:order-3">
