@@ -1,5 +1,14 @@
 import React from "react";
-import { Shield, Code, Users, Zap, Smartphone, Layout, Layers, Palette, Award, Settings, Coffee } from "lucide-react";
+import { 
+  PenTool, 
+  BarChart, 
+  Globe, 
+  Target, 
+  Share2, 
+  TrendingUp, 
+  Briefcase, 
+  MousePointer 
+} from "lucide-react";
 
 const ServicePage = () => {
   return (
@@ -11,134 +20,108 @@ const ServicePage = () => {
           <div className="absolute inset-0" style={{ backgroundImage: "url('/api/placeholder/1200/800')", backgroundSize: "cover" }}></div>
         </div>
         <div className="container mx-auto px-6 relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Our Cybersecurity & UI/UX Design Services</h1>
-          <p className="mt-4 text-xl max-w-3xl mx-auto text-gray-300">Secure and intuitive solutions to elevate your digital presence and protect your business</p>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Comprehensive Marketing & Advertising Solutions</h1>
+          <p className="mt-4 text-xl max-w-3xl mx-auto text-gray-300">Innovative strategies to elevate your brand, engage your audience, and drive business growth</p>
         </div>
       </header>
 
-      {/* Cybersecurity Solutions Section */}
+      {/* Creative Services Section */}
       <section className="py-24 px-6 relative">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black">Cybersecurity Solutions</h2>
-            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">Comprehensive security services to protect your digital assets and customer data</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-black">Our Marketing Services</h2>
+            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">Tailored marketing solutions designed to help your brand stand out and succeed</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Shield className="h-8 w-8 text-black" />
+                  <PenTool className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Security Audits & Vulnerability Assessments</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Creative Services</h3>
               <p className="text-gray-700">
-                We conduct thorough security audits to identify vulnerabilities in your existing systems and provide actionable
-                insights to strengthen them. Our comprehensive approach ensures no security gap goes unnoticed.
+                Our team of talented designers and copywriters collaborate to create compelling advertising campaigns 
+                that capture attention and drive engagement. We craft unique, memorable content that resonates with your target audience.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Code className="h-8 w-8 text-black" />
+                  <BarChart className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Data Encryption & Secure Transactions</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Media Planning</h3>
               <p className="text-gray-700">
-                Protect your customer's sensitive data by implementing robust encryption protocols for secure transactions.
-                We use industry-leading encryption methods to safeguard your data at rest and in transit.
+                Strategic media planning to maximize your advertising impact. We help you make informed decisions 
+                about ad placement, timing, and channels to ensure your message reaches the right audience at the right time.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Users className="h-8 w-8 text-black" />
+                  <Globe className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Multi-Factor Authentication (MFA)</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Digital Marketing</h3>
               <p className="text-gray-700">
-                We set up multi-factor authentication for your platform to add an extra layer of security, ensuring only authorized users
-                can access sensitive data. Our MFA solutions are both secure and user-friendly.
+                Cutting-edge digital marketing strategies that leverage the latest technologies and platforms. 
+                We develop comprehensive digital campaigns that effectively reach and engage your target audience across multiple channels.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Zap className="h-8 w-8 text-black" />
+                  <Target className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Firewalls & Threat Detection</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Branding</h3>
               <p className="text-gray-700">
-                Protect your platform from malicious activities with advanced firewalls and real-time threat detection systems.
-                Our proactive monitoring ensures potential threats are identified and neutralized before they cause damage.
+                Develop a strong, recognizable brand identity that sets you apart from competitors. 
+                We create comprehensive branding strategies that capture your unique value proposition and resonate with your target market.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* UI/UX Design Services Section with Curved Edges */}
+      {/* Social Media & Analytics Section with Curved Edges */}
       <section className="bg-gray-100 py-24 px-6 relative">
         <div className="absolute top-0 left-0 right-0 h-16 bg-gray-50" style={{ clipPath: "ellipse(75% 100% at 50% 0%)" }}></div>
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black">UI/UX Design Services</h2>
-            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">Creating intuitive and engaging user experiences that convert visitors into customers</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-black">Digital Engagement & Insights</h2>
+            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">Connecting your brand with your audience through strategic digital presence and data-driven insights</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Users className="h-8 w-8 text-black" />
+                  <Share2 className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">User-Centered Design</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Social Media Marketing</h3>
               <p className="text-gray-700">
-                We design products with the user in mind, ensuring that your platform is intuitive and user-friendly for maximum engagement.
-                Our research-based approach identifies user needs and pain points to create delightful experiences.
+                Our social media experts help you build and maintain a powerful online presence across all major platforms. 
+                We create engaging content, manage community interactions, and build brand awareness that drives meaningful connections.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Smartphone className="h-8 w-8 text-black" />
+                  <TrendingUp className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Responsive Design</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Analytics & Reporting</h3>
               <p className="text-gray-700">
-                Our designs adapt seamlessly across all devices, providing your users with a consistent and enjoyable experience.
-                From desktops to mobile devices, we ensure your platform looks and functions perfectly everywhere.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
-              <div className="mb-6 flex justify-center">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <Layout className="h-8 w-8 text-black" />
-                </div>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Wireframes & Prototypes</h3>
-              <p className="text-gray-700">
-                We build wireframes and prototypes to give you a clear vision of the user journey and interface before full development.
-                This iterative approach allows for early feedback and refinement, saving time and resources.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
-              <div className="mb-6 flex justify-center">
-                <div className="p-4 bg-gray-100 rounded-full">
-                  <Palette className="h-8 w-8 text-black" />
-                </div>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Branding & Visual Identity</h3>
-              <p className="text-gray-700">
-                Our design team will help you establish a unique and memorable visual identity that resonates with your target audience.
-                From color schemes to typography, we create cohesive brand experiences that leave lasting impressions.
+                Comprehensive analytics and detailed reporting to track your campaign performance. 
+                We provide actionable insights that help you make data-driven decisions and continuously optimize your marketing strategies.
               </p>
             </div>
           </div>
@@ -150,10 +133,9 @@ const ServicePage = () => {
       <section className="py-24 px-6 bg-gray-200 relative">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black">Why Choose Us?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-black">Why Partner With Us?</h2>
             <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
-              Our expert team is dedicated to delivering secure, intuitive, and user-friendly digital solutions 
-              that drive business growth and protect your most valuable assets.
+              Our dedicated team combines creativity, strategic thinking, and data-driven insights to deliver marketing solutions that drive real business results.
             </p>
           </div>
           
@@ -161,39 +143,39 @@ const ServicePage = () => {
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Award className="h-8 w-8 text-black" />
+                  <Briefcase className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Experienced Team</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Strategic Expertise</h3>
               <p className="text-gray-700">
-                Our team consists of cybersecurity experts and UI/UX designers who stay updated on the latest trends to provide innovative solutions.
-                With years of industry experience, we bring knowledge and expertise to every project.
+                Our team brings deep marketing expertise and strategic insights to every project. 
+                We stay ahead of industry trends to provide innovative solutions that give your brand a competitive edge.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Settings className="h-8 w-8 text-black" />
+                  <MousePointer className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">Tailored Solutions</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Targeted Approach</h3>
               <p className="text-gray-700">
-                We provide customized services that meet your unique business needs, ensuring a personalized approach for every project.
-                No cookie-cutter solutions – we design and develop with your specific requirements in mind.
+                We develop customized marketing strategies tailored to your specific business goals and target audience. 
+                Our personalized approach ensures maximum relevance and impact for your campaigns.
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border border-gray-200">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-gray-100 rounded-full">
-                  <Coffee className="h-8 w-8 text-black" />
+                  <Globe className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-black">End-to-End Service</h3>
+              <h3 className="text-2xl font-bold mb-4 text-black">Comprehensive Support</h3>
               <p className="text-gray-700">
-                From consultation to post-launch support, we offer comprehensive solutions that ensure your platform is secure and well-designed.
-                Our ongoing support means we're with you for the entire journey, not just until launch.
+                We provide end-to-end marketing support from initial strategy development through execution and ongoing optimization. 
+                Our commitment extends beyond campaign launch to ensure sustained success.
               </p>
             </div>
           </div>
@@ -203,16 +185,16 @@ const ServicePage = () => {
       {/* CTA Section */}
       <section className="py-24 px-6 bg-black text-white text-center">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Get in Touch</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">Ready to Grow Your Brand?</h2>
           <p className="text-xl mb-12 text-gray-300">
-            Ready to secure your platform and enhance user experience? Let's work together to create 
-            digital solutions that are both secure and delightful to use.
+            Let's discuss how our marketing and advertising solutions can help you achieve your business objectives 
+            and create meaningful connections with your audience.
           </p>
           <a
-            href="mailto:susandorothy552@gmail.com"
+            href="mailto:marketing@yourcompany.com"
             className="inline-block bg-white text-black py-3 px-8 rounded-full text-lg font-bold shadow-lg hover:bg-gray-200 transform hover:scale-105 transition-all duration-300"
           >
-            Contact Us Today
+            Get Started Now
           </a>
         </div>
       </section>

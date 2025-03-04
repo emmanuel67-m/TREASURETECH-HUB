@@ -142,38 +142,37 @@ function Home() {
 
   return (
     <div className="flex flex-col font-sans">
-     {/* Welcome Section */}
-     <section className="grid grid-cols-1 md:grid-cols-2 gap-0">
-        <div className="flex flex-col justify-center px-8 py-16 order-1 md:order-2 bg-gray-50">
-          <p className="text-blue-600 font-bold mb-4">Hello</p>
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-gray-800">
-            WELCOME TO <br className="hidden sm:block" /> TREASURETECH HUB!
-          </h2>
-          <p className="text-gray-600 mb-8 text-xl sm:text-2xl leading-relaxed">
-            We are a full-service advertising agency that specializes in creating impactful campaigns for businesses of
-            all sizes. Let us help you tell your story and reach your target audience today.
-          </p>
-          <a
-            href="https://www.instagram.com/velvet_giftsstore?igsh=MWFkMDVnODBoYW1obg=="
-            target="_blank"
-            rel="noopener noreferrer"
-            className="self-start"
-          >
-            <button className="bg-black text-white px-8 py-3 rounded-full cursor-pointer transition-all duration-300 hover:bg-gray-800 transform hover:scale-105">
-              LEARN MORE
-            </button>
-            
-          </a>
-          
+      {/* Background Image Container */}
+      <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+        {/* Dark overlay for better text visibility */}
+        <div className="absolute inset-0 bg-black/70 z-10"></div>
+        
+        {/* Background Image */}
+        <img 
+          src="https://i.pinimg.com/474x/36/3f/a7/363fa71ec3ef14f8806019fa5679158d.jpg" 
+          alt="E-commerce growth concept with wooden blocks" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Content Container */}
+      <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
+        {/* E-Commerce Text */}
+        <h2 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 tracking-wider transform -rotate-6">
+          E-COMMERCE
+        </h2>
+        
+        {/* Learn More Button */}
+        <div className="bg-black rounded-full p-4 sm:p-6 md:p-8">
+        <a href="https://www.instagram.com/velvet_giftsstore?igsh=MWFkMDVnODBoYW1obg==" target="_blank" rel="noopener noreferrer">
+  <button className="border border-white text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-full hover:bg-white hover:text-black transition-colors duration-300 text-sm sm:text-base uppercase tracking-wider font-medium">
+    Learn More
+  </button>
+</a>
+
         </div>
-        <div className="order-2 md:order-1 h-[400px] md:h-auto">
-          <img
-            src="https://img1.wsimg.com/isteam/stock/87434/:/cr=t:19.23%25,l:26.84%25,w:64.94%25,h:64.94%25/rs=w:1280,h:848/qt=q:30"
-            alt="Analytics Dashboard"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </section>
+      </div>
+    
 
 
      
@@ -301,7 +300,7 @@ function Home() {
                   }`}
                 >
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-                    <span className="text-2xl font-bold text-blue-600">{review.initial}</span>
+                    <span className="text-2xl font-bold text-black">{review.initial}</span>
                   </div>
                   <div className="flex justify-center text-yellow-400 mb-6">
                     <span>★★★★★</span>
@@ -330,7 +329,7 @@ function Home() {
                   key={index}
                   onClick={() => setCurrentReview(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    index === currentReview ? "bg-blue-600 w-6" : "bg-gray-300"
+                    index === currentReview ? "bg-black w-6" : "bg-gray-300"
                   }`}
                   aria-label={`Go to review ${index + 1}`}
                 />
@@ -355,7 +354,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">BASIC PACKAGE</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$250</p>
+                <p className="text-3xl font-bold mb-6 text-black">$250</p>
                 <p className="text-gray-600 mb-6">
                   I will install a basic theme in your Shopify with your data, color scheme, and personalization
                 </p>
@@ -390,7 +389,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">STANDARD PACKAGE</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$350</p>
+                <p className="text-3xl font-bold mb-6 text-black">$350</p>
                 <p className="text-gray-600 mb-6">
                   I will install a premium theme in your Shopify with your data, color scheme and personalization.
                 </p>
@@ -425,7 +424,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">PREMIUM PACKAGE</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$500</p>
+                <p className="text-3xl font-bold mb-6 text-black">$500</p>
                 <p className="text-gray-600 mb-6">I will Design a completely customized Shopify website</p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center">
@@ -468,7 +467,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">BASIC PACKAGE [SMM]</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$1,500</p>
+                <p className="text-3xl font-bold mb-6 text-black">$1,500</p>
                 <p className="text-gray-600">
                   Audiences Research + Facebook Ads + Instagram Ads + Tiktok Ads + Pinterest Marketing To Boost
                   Awareness
@@ -484,7 +483,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">STANDARD PACKAGE</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$3,000</p>
+                <p className="text-3xl font-bold mb-6 text-black">$3,000</p>
                 <p className="text-gray-600">
                   BASIC PACKAGE + Email Marketing &lt;5 Core Flows For Better And Easy Customer Conversion&gt; +
                   Backlinking SEO
@@ -500,7 +499,7 @@ function Home() {
                   className="w-full h-48 object-cover mb-6 rounded-lg"
                 />
                 <h4 className="text-xl font-bold mb-2 text-gray-800">PREMIUM PACKAGE</h4>
-                <p className="text-3xl font-bold mb-6 text-blue-600">$5,000</p>
+                <p className="text-3xl font-bold mb-6 text-black">$5,000</p>
                 <p className="text-gray-600">
                   COMPLETE SEO + SOCIAL MEDIA + KLAVIYO SALES FUNNEL.... Complete Shopify Marketing And Management +
                   BASIC AND STANDARD PACKAGE To Guarantee Sales.
@@ -572,7 +571,7 @@ function Home() {
                   key={index}
                   onClick={() => setCurrentImage(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    index === currentImage ? "bg-blue-600 w-6" : "bg-gray-300"
+                    index === currentImage ? "bg-black w-6" : "bg-gray-300"
                   }`}
                   aria-label={`Go to image ${index + 1}`}
                 />

@@ -1,17 +1,25 @@
-import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
+import React from "react";
+import { 
+  Users, 
+  Award, 
+  Target, 
+  Globe, 
+  TrendingUp, 
+  Briefcase 
+} from "lucide-react";
 
- function AboutUs() {
+function AboutUs() {
   return (
     <div className="flex flex-col min-h-screen">
       
       {/* Who We Are Section */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2  items-center">
+          <div className="grid md:grid-cols-2 items-center">
             <div className="relative">
               <img
-                src="https://i.pinimg.com/474x/87/9b/38/879b38c61e588dda6bac875c299e3c00.jpg"
-                alt="Cybersecurity Expert"
+                src="https://i.pinimg.com/474x/5f/e5/df/5fe5df7d28e769e6408cf8bcb62065a5.jpg"
+                alt="Marketing Team"
                 width="400"
                 height="500"
                 className="rounded-lg shadow-xl"
@@ -19,33 +27,32 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
             </div>
             <div>
               <div className="text-sm font-semibold text-black mb-2">WHO WE ARE</div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">We Secure Your Digital Future</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Elevating Brands Through Strategic Marketing</h2>
               <p className="text-gray-600 mb-6">
-                At TREASURETECH HUB, our mission is to provide innovative, secure, and user-centric solutions that help
-                businesses thrive in the digital world. We aim to create seamless digital experiences that not only
-                address security challenges but also enhance user engagement and drive measurable results.
+                At Marketing Mastery Group, our mission is to create powerful, data-driven marketing solutions that 
+                transform how businesses connect with their audiences. We blend creativity, strategic thinking, 
+                and cutting-edge technologies to deliver marketing campaigns that drive meaningful engagement and growth.
               </p>
               <p className="text-gray-600 mb-8">
-                Building your own cybersecurity infrastructure has always required extensive technical knowledge,
-                complex coding languages, or hiring an expensive security firm for thousands of dollars each month of
-                work.
+                We understand that in today's competitive landscape, effective marketing requires more than just 
+                creative content – it demands a comprehensive, strategic approach that delivers measurable results.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="text-black mr-2">✓</div>
-                  <div>Advanced threat detection and prevention systems.</div>
+                  <div>Integrated marketing strategies across digital and traditional channels</div>
                 </div>
                 <div className="flex items-start">
-                  <div className="text-black mr mr-2">✓</div>
-                  <div>24/7 security monitoring and incident response.</div>
+                  <div className="text-black mr-2">✓</div>
+                  <div>Data-driven insights and performance optimization</div>
                 </div>
                 <div className="flex items-start">
-                  <div className="text-black mr mr-2">✓</div>
-                  <div>Comprehensive security audits and compliance solutions.</div>
+                  <div className="text-black mr-2">✓</div>
+                  <div>Customized marketing solutions for diverse business needs</div>
                 </div>
               </div>
-              <button className="mt-8 bg-black mr  text-white py-3 px-6 rounded-md transition-all">
-                Learn More
+              <button className="mt-8 bg-black text-white py-3 px-6 rounded-md transition-all hover:bg-gray-800">
+                Learn More About Us
               </button>
             </div>
           </div>
@@ -56,41 +63,31 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
       <div className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Partner With Us</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Explore our world-class cybersecurity solutions with our beautiful protection products. We want to be a
-              part of your safer, successful and future growth.
+              Discover how our innovative marketing approach can transform your brand's digital presence 
+              and drive meaningful business growth.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-black " />
+                <Users className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Advanced Protection</h3>
+              <h3 className="text-xl font-bold mb-3">Audience-Centric Approach</h3>
               <p className="text-gray-600">
-                State-of-the-art security solutions that protect your digital assets from evolving threats.
+                Deep understanding of audience behaviors and preferences to create truly resonant marketing strategies.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lock className="w-8 h-8 text-black " />
+                <Target className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Data Encryption</h3>
+              <h3 className="text-xl font-bold mb-3">Precision Targeting</h3>
               <p className="text-gray-600">
-                Enterprise-grade encryption protocols that keep your sensitive information secure.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <Database className="w-8 h-8 text-black" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Secure Infrastructure</h3>
-              <p className="text-gray-600">
-                Robust security architecture designed to protect your systems from the ground up.
+                Advanced targeting techniques that ensure your message reaches the right audience at the right time.
               </p>
             </div>
 
@@ -98,19 +95,29 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
                 <Globe className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Global Threat Intelligence</h3>
+              <h3 className="text-xl font-bold mb-3">Omnichannel Strategies</h3>
               <p className="text-gray-600">
-                Real-time monitoring and analysis of global security threats to keep you protected.
+                Seamless marketing approaches that create consistent brand experiences across all platforms.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-black" />
+                <TrendingUp className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Expert Security Team</h3>
+              <h3 className="text-xl font-bold mb-3">Performance Analytics</h3>
               <p className="text-gray-600">
-                Dedicated cybersecurity professionals with decades of combined industry experience.
+                Comprehensive analytics and reporting to track, measure, and optimize marketing performance.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <Briefcase className="w-8 h-8 text-black" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Strategic Expertise</h3>
+              <p className="text-gray-600">
+                A team of experienced marketing professionals with a proven track record of driving business growth.
               </p>
             </div>
 
@@ -118,9 +125,9 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Compliance Certified</h3>
+              <h3 className="text-xl font-bold mb-3">Award-Winning Creativity</h3>
               <p className="text-gray-600">
-                Solutions that help you meet industry regulations and compliance requirements.
+                Innovative and creative marketing solutions that help your brand stand out in a crowded marketplace.
               </p>
             </div>
           </div>
@@ -131,10 +138,10 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What Clients Say</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Client Success Stories</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Discover how our cybersecurity solutions have helped businesses protect their digital assets and build
-              customer trust.
+              Hear from businesses that have transformed their marketing approach and achieved remarkable results 
+              with our strategic solutions.
             </p>
           </div>
 
@@ -143,13 +150,13 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                 <div>
-                  <h4 className="font-bold">Sarah Johnson</h4>
-                  <p className="text-sm text-gray-500">CTO, TechInnovate</p>
+                  <h4 className="font-bold">Emily Rodriguez</h4>
+                  <p className="text-sm text-gray-500">CMO, TechInnovate</p>
                 </div>
               </div>
               <p className="text-gray-600">
-                "TREASURETECH HUB transformed our security posture. Their proactive approach to cybersecurity has
-                prevented numerous potential breaches and given us peace of mind."
+                "Our marketing efforts were scattered until we partnered with this team. They developed a 
+                comprehensive strategy that increased our lead generation by 65% in just six months."
               </p>
               <div className="text-red-600 text-2xl mt-4">★★★★★</div>
             </div>
@@ -159,12 +166,12 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
                 <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                 <div>
                   <h4 className="font-bold">Michael Chen</h4>
-                  <p className="text-sm text-gray-500">CISO, FinanceSecure</p>
+                  <p className="text-sm text-gray-500">Founder, StartUp Solutions</p>
                 </div>
               </div>
               <p className="text-gray-600">
-                "In the financial sector, security is non-negotiable. TREASURETECH HUB provides us with enterprise-grade
-                protection that meets all our compliance requirements."
+                "Their data-driven approach and creative strategies helped us build a strong brand identity 
+                and reach our target audience more effectively than we ever thought possible."
               </p>
               <div className="text-red-600 text-2xl mt-4">★★★★★</div>
             </div>
@@ -174,12 +181,12 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
                 <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                 <div>
                   <h4 className="font-bold">Jessica Martinez</h4>
-                  <p className="text-sm text-gray-500">CEO, HealthData Systems</p>
+                  <p className="text-sm text-gray-500">Marketing Director, Global Retail</p>
                 </div>
               </div>
               <p className="text-gray-600">
-                "Patient data security is our top priority. TREASURETECH HUB's solutions have helped us maintain HIPAA
-                compliance while providing seamless access to authorized personnel."
+                "Our multichannel marketing campaign was a game-changer. The team's strategic insights 
+                and creative execution helped us connect with customers like never before."
               </p>
               <div className="text-red-600 text-2xl mt-4">★★★★★</div>
             </div>
@@ -190,4 +197,4 @@ import { Shield, Lock, Database, Globe, Users, Award } from "lucide-react"
   )
 }
 
-export default AboutUs
+export default AboutUs;
