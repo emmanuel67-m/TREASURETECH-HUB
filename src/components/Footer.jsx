@@ -28,10 +28,10 @@ function Footer() {
           <div className="flex items-center space-x-2 text-sm text-gray-300">
             <FaEnvelope />
             <a
-              href="mailto:susandorothy552@gmail.com"
+              href="mailto:sandraevelyn524@gmail.com"
               className="hover:text-white transition-colors duration-300"
             >
-              susandorothy552@gmail.com
+              sandraevelyn524@gmail.com
             </a>
           </div>
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">

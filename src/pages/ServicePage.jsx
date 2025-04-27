@@ -191,7 +191,7 @@ const ServicePage = () => {
             and create meaningful connections with your audience.
           </p>
           <a
-            href="mailto:marketing@yourcompany.com"
+            href="mailto:sandraevelyn524@gmail.com"
             className="inline-block bg-white text-black py-3 px-8 rounded-full text-lg font-bold shadow-lg hover:bg-gray-200 transform hover:scale-105 transition-all duration-300"
           >
             Get Started Now

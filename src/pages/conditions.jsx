@@ -139,7 +139,7 @@ function Conditions() {
               If you have any questions about our terms and conditions or refund policy, please don't hesitate to contact us.
             </p>
             <a
-              href="mailto:support@treasuretechhub.com"
+              href="mailto:sandraevelyn524@gamil.com"
               className="inline-block bg-black text-white py-2 px-6 rounded-full font-medium hover:bg-gray-800 transition-colors"
             >
               Contact Support
