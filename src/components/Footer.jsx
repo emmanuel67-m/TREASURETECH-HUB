@@ -34,6 +34,15 @@ function Footer() {
               sandraevelyn524@gmail.com
             </a>
           </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-300">
+            <FaEnvelope />
+            <a
+              href="mailto:sandraevelyn524@gmail.com"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Susandorothy@gmail.com
+            </a>
+          </div>
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaPhone />
             <a href="tel:+1234567890" className="hover:text-white transition-colors duration-300">
