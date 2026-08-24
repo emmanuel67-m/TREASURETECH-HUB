@@ -25,6 +25,36 @@ function Home() {
       name: "Mark Smith",
       date: "March 2025",
     },
+     {
+      initial: "D",
+      text: "Their team delivered exactly what we needed, on time and on budget. Communication was clear from start to finish.",
+      name: "David Martinez",
+      date: "January 2026",
+    },
+    {
+      initial: "P",
+      text: "The branding work they did for us completely elevated how we present ourselves online. Clients notice the difference immediately.",
+      name: "Priya Sharma",
+      date: "February 2026",
+    },
+    {
+      initial: "A",
+      text: "Fast turnaround and great attention to detail. They caught things we hadn't even thought to ask for.",
+      name: "Amara Okafor",
+      date: "April 2026",
+    },
+    {
+      initial: "L",
+      text: "Support has been consistent and reliable every single month. It feels like having an in-house team without the overhead.",
+      name: "Lauren Blake",
+      date: "June 2026",
+    },
+    {
+      initial: "R",
+      text: "One of the smoothest working relationships we've had with an agency. They genuinely care about getting results, not just deliverables.",
+      name: "Ethan Miller",
+      date: "August 2026",
+    },
   ]
 
   const prevReview = () => {
