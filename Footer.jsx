@@ -8,7 +8,8 @@ import {
   FaYoutube,
   FaEnvelope,
   FaPhone,
-  FaMapMarkerAlt
+  FaMapMarkerAlt,
+  FaStar,
 } from 'react-icons/fa';
 
 function Footer() {
@@ -22,31 +23,63 @@ function Footer() {
         <div className="mb-8 sm:mb-0">
           <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">About Us</h3>
           <p className="text-sm text-gray-300 mb-4">
-            TREASURETECH HUB is your trusted partner in e-commerce success, providing comprehensive solutions for online
+            TREASUREFLOURISH DIGITAL is your trusted partner in e-commerce success, providing comprehensive solutions for online
             businesses.
           </p>
-          <div className="flex items-center space-x-2 text-sm text-gray-300">
-            <FaEnvelope />
+
+          <div className="flex items-center space-x-2 text-sm text-gray-30">
+            <span className="flex items-center gap-1 px-2 py-0.5 border border-yellow-500 rounded-md text-yellow-500 text-xs font-semibold">
+              <FaStar className="text-yellow-500" size={10} />
+              CEO
+            </span>
             <a
-              href="mailto:sandraevelyn524@gmail.com"
-              className="hover:text-white transition-colors duration-300"
+              href="mailto:Robertgeorge4459@gmail.com"
+              className="text-sm text-gray-300 hover:text-white transition-colors duration-300"
             >
-              sandraevelyn524@gmail.com
+              Robertgeorge4459@gmail.com
             </a>
           </div>
+
           <div className="flex items-center space-x-2 text-sm text-gray-300">
             <FaEnvelope />
             <a
-              href="mailto:sandraevelyn524@gmail.com"
+              href="mailto:Charlottejane497@gmail.com"
               className="hover:text-white transition-colors duration-300"
             >
-              Susandorothy@gmail.com
+              Charlottejane497@gmail.com
+            </a>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
+            <FaEnvelope />
+            <a
+              href="mailto:susandorothy552@gmail.com"
+              className="hover:text-white transition-colors duration-300"
+            >
+              susandorothy552@gmail.com
+            </a>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
+            <FaEnvelope />
+            <a
+              href="mailto:susandorothy552@gmail.com"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Soladoye2@gmail.com
+            </a>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
+            <FaEnvelope />
+            <a
+              href="mailto:susandorothy552@gmail.com"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Treasureflourishdigital@gmail.com
             </a>
           </div>
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaPhone />
             <a href="tel:+1234567890" className="hover:text-white transition-colors duration-300">
-              +1 (269) 251-1408
+              +1 (669) 361-5872
             </a>
           </div>
         </div>
@@ -89,7 +122,7 @@ function Footer() {
               <FaFacebook size={20} />
             </a>
             <a
-              href="https://www.instagram.com/velvet_giftsstore?igsh=MWFkMDVnODBoYW1obg=="
+              href="https://www.instagram.com/treasureflourish_digital?igsi=enllcDV3NW5kMDVq"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-700 p-3 rounded-full hover:bg-pink-600 transition-colors duration-300 flex items-center justify-center"
@@ -132,7 +165,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto pt-6 border-t border-gray-700 mt-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} TREASURETECH HUB. All rights reserved.
+            © {currentYear} TREASUREFLOURISH DIGITAL. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="/sitemap" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">
