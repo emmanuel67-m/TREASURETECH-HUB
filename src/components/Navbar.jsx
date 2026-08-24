@@ -34,7 +34,7 @@ function Navbar() {
       
       {/* Center - Logo/Title (full width on mobile, centered on desktop) */}
       <Link to="/" className="w-full text-2xl md:w-auto text-center order-3 md:order-2 mt-3 md:mt-0">
-      TREASURETECH HUB    
+      TREASUREFLOURISH DIGITAL    
      </Link>
       
       {/* Right side - Menu toggle on mobile, links on desktop */}

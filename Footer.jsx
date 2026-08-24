@@ -22,7 +22,7 @@ function Footer() {
         <div className="mb-8 sm:mb-0">
           <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">About Us</h3>
           <p className="text-sm text-gray-300 mb-4">
-            TREASURETECH HUB is your trusted partner in e-commerce success, providing comprehensive solutions for online
+             TREASUREFLOURISH DIGITAL is your trusted partner in e-commerce success, providing comprehensive solutions for online
             businesses.
           </p>
           <div className="flex items-center space-x-2 text-sm text-gray-300">
@@ -37,7 +37,7 @@ function Footer() {
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaPhone />
             <a href="tel:+1234567890" className="hover:text-white transition-colors duration-300">
-              +1 (661) 470-4312
+              +1 (669) 361-5872
             </a>
           </div>
         </div>
@@ -123,7 +123,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto pt-6 border-t border-gray-700 mt-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} TREASURETECH HUB. All rights reserved.
+            © {currentYear}  TREASUREFLOURISH DIGITAL. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="/sitemap" className="text-sm text-gray-400 hover:text-white transition-colors duration-300">

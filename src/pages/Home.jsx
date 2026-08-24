@@ -164,7 +164,7 @@ function Home() {
         
         {/* Learn More Button */}
         <div className="bg-black rounded-full p-4 sm:p-6 md:p-8">
-        <a href="https://www.instagram.com/velvet_giftsstore?igsh=MWFkMDVnODBoYW1obg==" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/treasureflourish_digital?igsi=enllcDV3NW5kMDVq" target="_blank" rel="noopener noreferrer">
   <button className="border border-white text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-full hover:bg-white hover:text-black transition-colors duration-300 text-sm sm:text-base uppercase tracking-wider font-medium">
     Learn More
   </button>
