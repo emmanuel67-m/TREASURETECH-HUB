@@ -26,8 +26,7 @@ function Footer() {
             TREASUREFLOURISH DIGITAL is your trusted partner in e-commerce success, providing comprehensive solutions for online
             businesses.
           </p>
-
-
+         
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaEnvelope />
             <a
@@ -53,6 +52,7 @@ function Footer() {
             </a>
           </div>
         </div>
+          
 
         {/* Quick Links Section */}
         <div className="mb-8 sm:mb-0">
