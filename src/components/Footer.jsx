@@ -27,37 +27,7 @@ function Footer() {
             businesses.
           </p>
 
-          <div className="flex items-center space-x-2 text-sm text-gray-30">
-            <span className="flex items-center gap-1 px-2 py-0.5 border border-yellow-500 rounded-md text-yellow-500 text-xs font-semibold">
-              <FaStar className="text-yellow-500" size={10} />
-              CEO
-            </span>
-            <a
-              href="mailto:Robertgeorge4459@gmail.com"
-              className="text-sm text-gray-300 hover:text-white transition-colors duration-300"
-            >
-              Robertgeorge4459@gmail.com
-            </a>
-          </div>
 
-          <div className="flex items-center space-x-2 text-sm text-gray-300">
-            <FaEnvelope />
-            <a
-              href="mailto:Charlottejane497@gmail.com"
-              className="hover:text-white transition-colors duration-300"
-            >
-              Charlottejane497@gmail.com
-            </a>
-          </div>
-          <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
-            <FaEnvelope />
-            <a
-              href="mailto:susandorothy552@gmail.com"
-              className="hover:text-white transition-colors duration-300"
-            >
-              susandorothy552@gmail.com
-            </a>
-          </div>
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
             <FaEnvelope />
             <a
@@ -73,7 +43,7 @@ function Footer() {
               href="mailto:susandorothy552@gmail.com"
               className="hover:text-white transition-colors duration-300"
             >
-              Treasureflourishdigital@gmail.com
+              treasureflourishdigital@gmail.com
             </a>
           </div>
           <div className="flex items-center space-x-2 text-sm text-gray-300 mt-2">
